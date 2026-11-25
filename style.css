@@ -306,3 +306,11 @@ footer {
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 .back-to-top-icon { width: 17px; height: 17px; fill: currentColor; }
+
+/* Research interests */
+.interests-heading { margin: 0 0 10px; color: #253b50; font-size: 15px; font-weight: bold; letter-spacing: .04em; }
+.interests { gap: 9px; }
+.interests span { padding: 5px 12px; border-color: #c5d6e0; background: #f0f5f8; color: #253b50; font-size: 1rem; font-weight: bold; line-height: 1.5; }
+
+/* Position the profile photo slightly lower on wider screens. */
+@media (min-width: 601px) { .profile-photo { margin-top: 20px; } }
