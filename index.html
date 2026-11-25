@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="top">
     <header>
         <nav>
             <a class="site-name" href="#">Rion Akatsuka</a>
             <div class="nav-links">
-                <a href="#about" data-en="About" data-ja="プロフィール">About</a>
+                <a href="#about" data-en="Home" data-ja="ホーム">Home</a>
                 <a href="updates.html" data-en="Activities" data-ja="活動記録">Activities</a>
                 <div class="language-switch" aria-label="Language">
                     <button type="button" data-language="en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" data-language="ja" aria-pressed="false">JP</button>
@@ -96,6 +96,7 @@
     <footer>
         &copy; 2026 Rion Akatsuka
     </footer>
+    <a class="back-to-top" href="#top"><span aria-hidden="true">↑</span><span class="visually-hidden" data-en="Back to top" data-ja="ページの先頭に戻る">Back to top</span></a>
     <script>
         const languageButtons = document.querySelectorAll('[data-language]');
         function setLanguage(language) {
@@ -107,7 +108,11 @@
                 button.setAttribute('aria-pressed', String(button.dataset.language === language));
             });
         }
-        languageButtons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.language)));
+        try { setLanguage(sessionStorage.getItem('language') === 'ja' ? 'ja' : 'en'); } catch (_) {}
+        languageButtons.forEach(button => button.addEventListener('click', () => {
+            setLanguage(button.dataset.language);
+            try { sessionStorage.setItem('language', button.dataset.language); } catch (_) {}
+        }));
     </script>
 </body>
 </html>

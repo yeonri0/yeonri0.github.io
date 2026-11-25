@@ -6,12 +6,12 @@
     <title>Activities | Rion Akatsuka</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
     <header>
         <nav>
             <a class="site-name" href="index.html">Rion Akatsuka</a>
             <div class="nav-links">
-                <a href="index.html" data-en="About" data-ja="プロフィール">About</a>
+                <a href="index.html" data-en="Home" data-ja="ホーム">Home</a>
                 <a href="updates.html" aria-current="page" data-en="Activities" data-ja="活動記録">Activities</a>
                 <div class="language-switch" aria-label="Language">
                     <button type="button" data-language="en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" data-language="ja" aria-pressed="false">JP</button>
@@ -24,62 +24,65 @@
         <section>
             <p class="eyebrow" data-en="Research &amp; activities" data-ja="研究・活動">Research &amp; activities</p>
             <h1 data-en="Activities" data-ja="活動記録">Activities</h1>
-            <p class="updates-intro" data-en="Notes on conferences, research, and other activities." data-ja="学会や研究などの活動を紹介します。">Notes on conferences, research, and other activities.</p>
             <div class="timeline-year">2026</div>
             <div class="updates-list">
                 <article class="update-post activity-personal">
                     <div class="activity-meta"><span class="update-date" data-en="November 2026" data-ja="2026年11月">November 2026</span><span class="activity-category" data-en="Personal" data-ja="個人活動">Personal</span></div>
-                    <h2 data-en="Dancing at Mita Festival" data-ja="三田祭でのダンス">Dancing at Mita Festival</h2>
+                    <h2 data-en="Dancing at Mita Festival" data-ja="三田祭">Dancing at Mita Festival</h2>
                     <div class="activity-content">
                         <div class="activity-media">
-                            <!-- 写真を用意したら、それぞれのdivをimgに置き換えてください。 -->
-                            <div class="activity-photo-placeholder" data-en="Photo coming soon" data-ja="写真を準備中">Photo coming soon</div>
+                            <img class="activity-photo" src="images/dance.jpg" alt="Keio University">
                         </div>
-                        <div class="activity-text"><p data-en="I took to the stage and performed a dance at Mita Festival!" data-ja="三田祭のステージでダンスを披露しました！">I took to the stage and performed a dance at Mita Festival!</p></div>
+                        <div class="activity-text"><p data-en="I took to the last stage and performed a dance at Mita Festival!" data-ja="三田祭のステージでダンスのショーケースに出ました！これをもってダンスサークルを引退しました。">I took to the stage and performed a dance at Mita Festival!</p></div>
                     </div>
                 </article>
                 <article class="update-post activity-riken">
                     <div class="activity-meta"><span class="update-date" data-en="September – October 2026" data-ja="2026年9月 – 10月">September – October 2026</span><span class="activity-category" data-en="RIKEN" data-ja="理研">RIKEN</span></div>
-                    <h2 data-en="Research at RIKEN" data-ja="理化学研究所での研究">Research at RIKEN</h2>
+                    <h2 data-en="Research Internship at RIKEN" data-ja="理化学研究所での研究">Research Internship at RIKEN</h2>
                     <div class="activity-content">
                         <div class="activity-media">
-                            <!-- 写真を用意したら、それぞれのdivをimgに置き換えてください。 -->
-                            <div class="activity-photo-placeholder" data-en="Photo coming soon" data-ja="写真を準備中">Photo coming soon</div>
+                            <img class="activity-photo" src="images/riken.JPEG" alt="Keio University">
                         </div>
-                        <div class="activity-text"><p data-en="I had the opportunity to take part in research at RIKEN!" data-ja="理化学研究所で研究に参加する機会をいただきました！">I had the opportunity to take part in research at RIKEN!</p></div>
+                        <div class="activity-text">
+                            <p data-en="I participated in a research internship at the RIKEN Center for Computational Science, where I learned tensor network calculations and quantum computing methods for quantum many-body systems." data-ja="理化学研究所計算科学センターでの研究インターンシップに参加し、量子多体系におけるテンソルネットワーク計算と量子コンピューティング手法を学びました。">I participated in a research internship at the RIKEN Center for Computational Science, where I learned tensor network calculations and quantum computing methods for quantum many-body systems!</p>
+                            <p class="activity-links"><a href="https://www.r-ccs.riken.jp/labs/cms/" data-en="Yunoki Team" data-ja="柚木チーム">Yunoki Research Team at R-CCS</a></p>
+                        </div>
                     </div>
                 </article>
                 <article class="update-post activity-keio">
                     <div class="activity-meta"><span class="update-date" data-en="September 2026" data-ja="2026年9月">September 2026</span><span class="activity-category" data-en="Keio University" data-ja="慶應義塾大学">Keio University</span></div>
-                    <h2 data-en="Presentation Award at Keio University" data-ja="慶應義塾大学での発表賞">Presentation Award at Keio University</h2>
+                    <h2 data-en="Presentation Award" data-ja="優秀発表賞を受賞">Presentation Award</h2>
                     <div class="activity-content">
                         <div class="activity-media">
-                            <!-- 写真を用意したら、それぞれのdivをimgに置き換えてください。 -->
-                            <div class="activity-photo-placeholder" data-en="Photo coming soon" data-ja="写真を準備中">Photo coming soon</div>
+                            <img class="activity-photo" src="images/keio2.jpg" alt="Keio University">
                         </div>
-                        <div class="activity-text"><p data-en="I was delighted to receive an award for my presentation at Keio University!" data-ja="慶應義塾大学での発表で賞をいただきました！">I was delighted to receive an award for my presentation at Keio University!</p></div>
+                        <div class="activity-text"><p data-en="I presented my research on chirality-induced spin selectivity (CISS) at the Kaiju Lab at a departmental presentation conference and was thrilled to receive the Best Presenter Award for first place in my session!" data-ja="海住研究室で行っているキラリティ誘起スピン選択性（CISS）の研究について学科の発表会で発表しました。会場の発表者15人の中で1位となり、Best Presenter Awardを受賞しました！">I presented my research on chirality-induced spin selectivity (CISS) at the Kaiju Lab at a departmental presentation conference and was thrilled to receive the Best Presenter Award for first place in my session!</p></div>
                     </div>
                 </article>
                 <article class="update-post activity-rice">
                     <div class="activity-meta"><span class="update-date" data-en="July 2026" data-ja="2026年7月">July 2026</span><span class="activity-category" data-en="Rice University" data-ja="ライス大学">Rice University</span></div>
-                    <h2 data-en="International Conference" data-ja="国際会議への参加">International Conference</h2>
+                    <h2 data-en="My First International Conference: WONTON 2026" data-ja="初めての国際会議：WONTON 2026">My First International Conference: WONTON 2026</h2>
                     <div class="activity-content">
                         <div class="activity-media">
-                            <!-- 写真を用意したら、それぞれのdivをimgに置き換えてください。 -->
-                            <div class="activity-photo-placeholder" data-en="Photo coming soon" data-ja="写真を準備中">Photo coming soon</div>
+                            <img class="activity-photo" src="images/rice3.jpg" alt="Rice University">
                         </div>
-                        <div class="activity-text"><p data-en="I had the opportunity to attend an international conference through my work at Rice University!" data-ja="ライス大学での活動を通して、国際会議に参加しました！">I had the opportunity to attend an international conference through my work at Rice University!</p></div>
+                        <div class="activity-text">
+                            <p data-en="I attended my first international conference, WONTON 2026! After returning to Japan from Rice University, I carried out theoretical calculations and compared them with experimental results. I presented this work in a poster session.&#10;&#10;I also learned so much from the many talks throughout the conference!" data-ja="初めての国際会議、WONTON 2026に参加しました！ライス大学から帰国後、理論計算を行い、実験結果との比較に取り組みました。この内容をポスターセッションで発表しました。&#10;&#10;さまざまな講演を聞くことができ、とても勉強になりました！">I attended my first international conference, WONTON 2026! After returning to Japan from Rice University, I carried out theoretical calculations and compared them with experimental results. I presented this work in a poster session.&#10;&#10;I also learned so much from the many talks throughout the conference!</p>
+                            <p class="activity-links"><a href="https://qmse.fpark.tmu.ac.jp/pire/wonton2026">WONTON 2026</a></p>
+                        </div>
                     </div>
                 </article>
                 <article class="update-post activity-keio">
-                    <div class="activity-meta"><span class="update-date" data-en="September 2026" data-ja="2026年9月">September 2026</span><span class="activity-category" data-en="Keio University" data-ja="慶應義塾大学">Keio University</span></div>
+                    <div class="activity-meta"><span class="update-date" data-en="March 2026" data-ja="2026年3月">March 2026</span><span class="activity-category" data-en="Keio University" data-ja="慶應義塾大学">Keio University</span></div>
                     <h2 data-en="Joined Kaiju group" data-ja="海住研究室に参加しました。">Joined Kaiju group</h2>
                     <div class="activity-content">
                         <div class="activity-media">
-                            <!-- 写真を用意したら、それぞれのdivをimgに置き換えてください。 -->
-                            <div class="activity-photo-placeholder" data-en="Photo coming soon" data-ja="写真を準備中">Photo coming soon</div>
+                            <img class="activity-photo" src="images/keio1.png" alt="Keio University">
                         </div>
-                        <div class="activity-text"><p data-en="I joined the Kaiju group at Keio University!" data-ja="慶應義塾大学の海住研究室に参加しました！">I joined the Kaiju group at Keio University!</p></div>
+                        <div class="activity-text">
+                            <p data-en="I joined the Kaiju Lab at Keio University and will be conducting my undergraduate thesis research in spintronics!" data-ja="慶應義塾大学の海住研究室に所属しました。これからスピントロニクスに関する卒業研究に取り組みます！">I joined the Kaiju Lab at Keio University and will be conducting my undergraduate thesis research in spintronics!</p>
+                            <p class="activity-links"><a href="https://www.kaiju.appi.keio.ac.jp/english/index.html">Kaiju Lab</a></p>
+                        </div>
                     </div>
                 </article>
                 <article class="update-post activity-rice">
@@ -97,9 +100,21 @@
                     </div>
                 </article>
             </div>
+            <div class="timeline-year timeline-year-next">2025</div>
+            <div class="updates-list">
+                <article class="update-post activity-aachen">
+                    <div class="activity-meta"><span class="update-date" data-en="August – September 2025" data-ja="2025年8月 – 9月">August – September 2025</span><span class="activity-category" data-en="RWTH Aachen University" data-ja="アーヘン工科大学">RWTH Aachen University</span></div>
+                    <h2 data-en="Summer School at RWTH Aachen University" data-ja="アーヘン工科大学のサマースクール">Summer School at RWTH Aachen University</h2>
+                    <div class="activity-content">
+                        <img class="activity-photo" src="images/aachen.jpg" alt="RWTH Aachen University">
+                        <div class="activity-text"><p data-en="I participated in a summer school at RWTH Aachen University!" data-ja="アーヘン工科大学のサマースクールに参加しました！">I participated in a summer school at RWTH Aachen University!</p></div>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
     <footer>&copy; 2026 Rion Akatsuka</footer>
+    <a class="back-to-top" href="#top"><span aria-hidden="true">↑</span><span class="visually-hidden" data-en="Back to top" data-ja="ページの先頭に戻る">Back to top</span></a>
     <script>
         const languageButtons = document.querySelectorAll('[data-language]');
         function setLanguage(language) {

@@ -287,3 +287,20 @@ footer {
 
 /* Year label above the activity timeline. */
 .timeline-year { color: #253b50; font-size: 1.05rem; font-weight: bold; letter-spacing: .04em; margin: 0 0 10px; }
+
+/* RWTH Aachen summer school */
+.activity-aachen { border-left: 4px solid #8d6a43; }
+.activity-aachen .activity-category { color: #795631; }
+.update-post.activity-aachen::before { left: -40px; background: #8d6a43; }
+.timeline-year-pending { position: relative; margin: 10px 0 0; }
+@media (max-width: 600px) { .update-post.activity-aachen::before { left: -29px; } }
+
+.timeline-year-next { margin-top: 30px; }
+
+/* Back to top */
+.back-to-top { position: fixed; right: 24px; bottom: 24px; z-index: 10; display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border: 1px solid #d2dfe7; border-radius: 50%; background: #fff; box-shadow: 0 3px 12px rgba(37, 59, 80, .12); color: #253b50; font-size: 24px; line-height: 1; text-decoration: none; }
+.back-to-top:hover { background: #edf3f6; color: #527b9b; }
+.back-to-top:focus-visible { outline: 2px solid #527b9b; outline-offset: 3px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+@media (max-width: 600px) { .back-to-top { right: 16px; bottom: 16px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
