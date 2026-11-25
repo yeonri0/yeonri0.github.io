@@ -1,0 +1,7 @@
+# macOS and editor temporary files
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+*.swp
+*.swo

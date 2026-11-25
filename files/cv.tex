@@ -1,0 +1,304 @@
+\documentclass[11pt]{article}
+
+% --------------------------------------------------
+% Packages
+% --------------------------------------------------
+\usepackage[
+    top=0.6in,
+    bottom=0.6in,
+    left=0.6in,
+    right=0.6in
+]{geometry}
+
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tgpagella}
+
+
+
+% --------------------------------------------------
+% General settings
+% --------------------------------------------------
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+
+% --------------------------------------------------
+% Section style
+% --------------------------------------------------
+\titleformat{\section}
+    {\large\bfseries}
+    {}
+    {0em}
+    {}
+    [\vspace{2pt}\titlerule]
+
+\titlespacing{\section}
+    {0pt}
+    {10pt}
+    {6pt}
+
+
+\definecolor{highlightcolor}{HTML}{2455A4}
+\newcommand{\highlight}[1]{\textcolor{highlightcolor}{\textbf{#1}}}
+
+% --------------------------------------------------
+% List settings
+% --------------------------------------------------
+\setlist[itemize]{
+    leftmargin=1.5em,
+    itemsep=2pt,
+    topsep=2pt,
+    parsep=0pt,
+    partopsep=0pt
+}
+
+% --------------------------------------------------
+% Document Start
+% --------------------------------------------------
+\begin{document}
+
+% ==================================================
+% HEADER
+% ==================================================
+
+\begin{center}
+    {\LARGE\bfseries Rion AKATSUKA}
+    
+    
+    \vspace{9pt}
+    \href{mailto:akatsukarion@keio.jp}{akatsukarion@keio.jp}
+    \quad $\vert$ \quad
+    \href{https://www.linkedin.com/in/rion-akatsuka-a8742035b/}{LinkedIn}
+    \quad $\vert$ \quad
+    \href{https://github.com/yeonri0}{GitHub}
+    \quad $\vert$ \quad
+    Keio University, Kanagawa, Japan
+\end{center}
+
+\vspace{1pt}
+% ==================================================
+% EDUCATION
+% ==================================================
+
+\section*{EDUCATION}
+
+\textbf{Keio University}
+\hfill Apr 2023--Mar 2027 (Expected) \\
+\hspace{1.5em}
+Bachelor of Engineering, Department of Applied Physics and Physico-Informatics
+\hfill Kanagawa, Japan
+
+% ==================================================
+% PUBLICATIONS
+% ==================================================
+
+\section*{PUBLICATIONS}
+\textbf{Manuscript in Preparation} \\
+Gustavo M. Rodriguez-Barrios, \underline{Rion Akatsuka}, Natsumi Komatsu, Andrey Baydin, Kazuhiro Yanagi, and Junichiro Kono, "Intersubband Plasmons in Single-Chirality, Highly Aligned Carbon Nanotube Films," manuscript in preparation.
+
+
+% ==================================================
+% PRESENTATIONS
+% ==================================================
+
+\section*{PRESENTATIONS}
+
+1. \underline{Rion Akatsuka}, Gustavo M. Rodriguez-Barrios, Natsumi Komatsu, Andrey Baydin, Kazuhiro Yanagi, and Junichiro Kono, "Intersubband Plasmon Resonances in Single-Chirality, Highly Aligned Single-Wall Carbon Nanotubes,"
+International Workshop on Nanotube Optics and Nanospectroscopy, Wakkanai, Hokkaido, Japan, July 5, 2026. (Poster)
+\vspace{4pt}
+
+2. \underline{Rion Akatsuka} and Hideo Kaiju, "Fabrication and Characterization of Devices for Measuring the Temperature Dependence of Chirality-Induced Spin Selectivity," The Presentation Techniques Conference, Keio University, Kanagawa, Japan, September 2026. (Oral)
+
+
+
+% ==================================================
+% RESEARCH EXPERIENCE
+% ==================================================
+
+\section*{RESEARCH EXPERIENCE}
+
+\textbf{Chirality-Induced Spin Selectivity (CISS) in BINOL Organic Spin Valves}
+\hfill Mar 2026--Present
+
+\textit{Advisor: Prof. Hideo Kaiju, Keio University}
+\hfill Kanagawa, Japan
+
+\begin{itemize}
+\item Fabricated microscale Au/$R$- or $S$-BINOL/Co/Pt/Co/Pt/Cr/glass
+organic spin valves and reproduced magnetoresistance (MR) with opposite
+signs for the two enantiomers at room temperature.
+\item Built a LabVIEW-automated, cryostat-integrated four-probe MR measurement system and extended MR measurements down to 50 K to investigate \highlight{the temperature dependence of BINOL-based CISS}.
+\end{itemize}
+
+
+\vspace{4pt}
+
+\textbf{Real-Time Spin Dynamics in Quantum Many-Body Systems}
+\hfill Sep 2026--Present
+
+\textit{Advisor: Dr. Seiji Yunoki,  RIKEN}
+\hfill Hyogo, Japan (On-site: Sep--Oct 2026)
+
+\begingroup
+\sloppy
+\begin{itemize}
+\item Implemented tensor network methods, including MPS, DMRG, and TEBD, to calculate spin correlation functions and the dynamical structure factor of the 1D Heisenberg model. 
+\item \highlight{Developing TEBD-based simulations of CISS} to investigate the potential role of vibration-induced Dzyaloshinskii-Moriya interactions in temperature-dependent spin polarization. 
+\end{itemize}
+\endgroup
+
+\vspace{4pt}
+
+\textbf{Intersubband Plasmons in Gated and Highly Aligned Carbon Nanotubes}
+\hfill Feb--Jul 2026
+
+\textit{Advisor: Prof. Junichiro Kono, Rice University}
+\hfill Houston, TX (On-site: Feb--Mar 2026)
+
+\begin{itemize}
+\item Collaborated on the assembly of gated devices using
+highly aligned, single-chirality (11,10) carbon nanotube films,
+including gold electrode integration and ionic-liquid gating.
+
+\item Performed gate-dependent optical transmission spectroscopy, 
+contributing to the first observation of characteristic
+intersubband plasmon peaks in single-chirality carbon nanotube films.
+
+\item \highlight{Independently calculated optical spectra},
+enabling the identification of transition peaks resolved in single-chirality
+carbon nanotubes and demonstrating quantitative
+agreement with experimental spectra.
+
+\end{itemize}
+
+
+\vspace{4pt}
+
+\textbf{Orbital Hall Magnetoresistance in a 2D Material}
+\hfill Jun--Dec 2025
+
+\textit{Advisor: Prof. Kazuya Ando, Keio University}
+\hfill Kanagawa, Japan
+
+\begin{itemize}
+    \item Fabricated SiO$_2$/Fe$_3$GeTe$_2$/Ti/Si devices using photolithography and mechanical exfoliation.
+\end{itemize}
+
+% ==================================================
+% HONORS & AWARDS
+% ==================================================
+
+\section*{HONORS AND AWARDS}
+\highlight{\textbf{Department of Applied Physics and Physico-Informatics Special Award}} (Selected for Award), Department of Applied Physics and Physico-Informatics, Keio University
+\hfill \mbox{Mar 2027}
+
+\vspace{4pt}
+
+\textbf{Best Presenter Award}, The Presentation Techniques Conference, Keio University
+\hfill Sep 2026
+
+
+% ==================================================
+% SCHOLARSHIPS AND SELECTED PROGRAMS
+% ==================================================
+
+\section*{SCHOLARSHIPS AND SELECTED PROGRAMS}
+\textbf{Yoshida Scholarship Foundation -- \highlight{Ph.D. Fellowship}}
+\hfill 2027--2029 (extendable to 2030)
+\begin{itemize}
+\item \highlight{Up to \$25,000 for tuition and \$2,500/month for living expenses}
+\end{itemize}
+\vspace{3pt}
+
+\textbf{R-CCS Research Internship}, RIKEN Center for Computational Science
+\hfill Sep 2026
+\begin{itemize}
+\item Fully funded, including travel, accommodation, and a daily stipend; competitively selected as an undergraduate among 15 participants,
+most of whom were graduate students. 
+\end{itemize}
+\vspace{3pt}
+
+
+\textbf{TOMODACHI-Dow Women's STEM Leadership and Research Program}, Rice University
+\hfill Feb 2026
+\begin{itemize}
+\item Fully funded, including travel, accommodation, and additional financial support; competitively selected as one of 10 participants. 
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Keyence Foundation Scholarship}
+\hfill 2026
+\begin{itemize}
+\item Awarded JPY 300,000 in recognition of academic ambition
+and potential as an undergraduate student.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Keio-Aachen Summer School}, RWTH Aachen University
+\hfill Aug--Sep 2025
+\begin{itemize}
+\item Selected for a fee waiver; attended lectures and hands-on cleanroom workshops. 
+\hfill Aachen, Germany
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Global Leadership Exchange Program}, Korea University
+\hfill Jul--Aug 2023
+\begin{itemize}
+\item Participated in discussions and presentations on technology and innovation.
+\hfill Seoul, South Korea
+\end{itemize}
+
+% ==================================================
+% OUTREACH
+% ==================================================
+
+\section*{OUTREACH}
+
+\textbf{Project Member, AWESOME (Japan-based nonprofit organization)}
+\hfill Apr 2026--Present
+
+\begin{itemize}
+    \item Aiming to increase the number of women in STEM and strengthen connections among women in STEM.
+    \item Delivered a talk and organized a hands-on science workshop for high school students.
+\end{itemize}
+
+% ==================================================
+% SKILLS
+% ==================================================
+
+\section*{SKILLS}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{@{} l p{0.8\textwidth} @{}}
+\textbf{Languages} &
+Japanese (native); English (TOEFL iBT MyBest Scores: R 6.0, L 5.0, S 4.0, W 5.5); Korean (TOPIK PBT 4/6) \\
+
+\textbf{Computing} &
+Python (NumPy, SciPy, Quimb, Qiskit, Matplotlib), Julia (ITensor), MATLAB, Fortran \\
+
+\textbf{Software/Tools} &
+Git, GitHub, LabVIEW, LaTeX \\
+
+\textbf{Fabrication} &
+\highlight{Photolithography, Magnetron Sputtering, Spin Coating,
+Mechanical Exfoliation, Wire Bonding,
+Ultracentrifugation, Vacuum Filtration} \\
+
+\textbf{Characterization} &
+\highlight{Magnetotransport Measurements, Cryogenic Measurements,
+Magneto-Optical Kerr Effect,
+Circular Dichroism,
+Raman Spectroscopy, X-ray Diffraction,
+Atomic Force Microscopy, Optical Spectroscopy} \\
+
+\end{tabular}
+
+\vspace{8pt}
+\hfill{\footnotesize\color{gray}Last updated: November 23, 2026}
+
+\end{document}

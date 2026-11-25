@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rion Akatsuka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="site-name" href="#">Rion Akatsuka</a>
+            <div class="nav-links">
+                <a href="#about" data-en="About" data-ja="プロフィール">About</a>
+                <a href="updates.html" data-en="Activities" data-ja="活動記録">Activities</a>
+                <div class="language-switch" aria-label="Language">
+                    <button type="button" data-language="en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" data-language="ja" aria-pressed="false">JP</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="profile">
+                <div class="profile-photo"><img src="images/profile.jpg" alt="Rion Akatsuka"></div>
+                <div class="profile-text">
+                    <p class="eyebrow" data-en="About Me" data-ja="プロフィール">About Me</p>
+                    <h1 data-en="Rion Akatsuka" data-ja="赤塚 莉音">Rion Akatsuka</h1>
+                    <p class="affiliation"><span data-en="Undergraduate Researcher" data-ja="学部研究生">Undergraduate Researcher</span><br><span data-en="Department of Applied Physics and Physico-Informatics, Keio University, Japan" data-ja="物理情報工学科, 慶應義塾大学">Department of Applied Physics and Physico-Informatics, Keio University, Japan</span></p>
+                    <div class="interests" aria-label="Research interests">
+                        <span data-en="Spintronics" data-ja="スピントロニクス">Spintronics</span><span data-en="Magnetism" data-ja="磁性">Magnetism</span><span data-en="Spin Transport" data-ja="スピン輸送">Spin Transport</span><span data-en="Magnetization Dynamics" data-ja="磁化ダイナミクス">Magnetization Dynamics</span>
+                    </div>
+                    <!-- Replace the placeholder URLs with your own links. -->
+                    <div class="profile-links" aria-label="Profile links">
+                        <a href="mailto:akatsukarion@keio.jp"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>Email</a>
+                        <a href="https://www.linkedin.com/in/rion-akatsuka-a8742035b/"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 10v7m0-10v.1M12 17v-7m0 3c0-4 5-4 5 0v4"/></svg>LinkedIn</a>
+                        <a href="https://github.com/yeonri0"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1-4-2-6-2m12 4v-3.5c0-1 .1-1.5-.5-2 3-.3 6-1.5 6-6.5a5 5 0 0 0-1.4-3.5 4.6 4.6 0 0 0-.1-3.5S18 1.7 15 3.5a12 12 0 0 0-6 0C6 1.7 4.9 2 4.9 2a4.6 4.6 0 0 0-.1 3.5A5 5 0 0 0 3.4 9c0 5 3 6.2 6 6.5-.5.5-.5 1.1-.5 2V21"/></svg>GitHub</a>
+                        <a href="files/cv.pdf"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 12h6M9 16h6"/></svg>CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research">
+            <h2 data-en="Research" data-ja="研究">Research</h2>
+            <div class="research-list">
+                <article class="research-item">
+                    <div class="research-logo"><img src="images/keio2.png" alt="Keio University"></div>
+                    <div class="research-details">
+                    <div class="research-heading"><h3 data-en="Keio University" data-ja="慶應義塾大学">Keio University</h3><span class="research-period" data-en="March 2026 - Present" data-ja="2026年3月 - 現在">March 2026 - Present</span></div>
+                    <p data-en="Chirality-Induced Spin Selectivity (CISS)" data-ja="キラリティ誘起スピン選択性（CISS）">Chirality-Induced Spin Selectivity (CISS)</p>
+                    </div>
+                </article>
+                <article class="research-item">
+                    <div class="research-logo"><img src="images/rice.svg" alt="Rice University"></div>
+                    <div class="research-details">
+                    <div class="research-heading"><h3 data-en="Rice University" data-ja="ライス大学">Rice University</h3><span class="research-period" data-en="February 2026 - Present" data-ja="2026年2月 - 現在">February 2026 - Present</span></div>
+                    <p data-en="Intersubband Plasmon Resonance in Carbon Nanotubes" data-ja="カーボンナノチューブにおけるサブバンド間プラズモン共鳴">Intersubband Plasmon Resonance in Carbon Nanotubes</p>
+                    </div>
+                </article>
+                <article class="research-item">
+                    <!-- 理研のロゴ使うには申請が必要らしい。 -->
+                    <div class="research-logo" aria-hidden="true"><span></span></div>
+                    <div class="research-details">
+                    <div class="research-heading"><h3>RIKEN</h3><span class="research-period" data-en="September - October 2026" data-ja="2026年9月 - 10月">September - October 2026</span></div>
+                    <p data-en="Computational Investigation of Spin Dynamics in Quantum Spin Chains" data-ja="量子スピン鎖におけるスピンダイナミクスの計算研究">Computational Investigation of Spin Dynamics in Quantum Spin Chains</p>
+                    </div>
+                </article>
+            </div>
+            <div class="research-activities">
+                <div><span class="research-activities-label" data-en="Beyond the lab" data-ja="研究活動の記録">Beyond the lab</span><p data-en="Explore conference highlights and recent activities!" data-ja="学会や最近の活動を紹介しています!">Explore conference highlights and recent activities!</p></div>
+                <a href="updates.html" data-en="View Activities" data-ja="活動記録を見る">View Activities</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 data-en="Skills" data-ja="スキル">Skills</h2>
+            <dl class="skills-list">
+                <div><dt data-en="Languages" data-ja="言語">Languages</dt><dd data-en="Japanese (native); English (TOEFL iBT 5.0/6.0); Korean (TOPIK PBT 4/6)" data-ja="日本語（母語）、英語（English (TOEFL iBT 5.0/6.0)、韓国語（TOPIK PBT 4/6）">Japanese (native); English (TOEFL iBT 5.0/6.0); Korean (TOPIK PBT 4/6)</dd></div>
+                <div><dt data-en="Computing" data-ja="プログラミング">Computing</dt><dd>Python (NumPy, SciPy, Quimb, Qiskit, Matplotlib), Julia (ITensor), MATLAB, Fortran</dd></div>
+                <div><dt data-en="Software / Tools" data-ja="ソフトウェア・ツール">Software / Tools</dt><dd>Git, GitHub, LabVIEW, LaTeX</dd></div>
+                <div><dt data-en="Fabrication" data-ja="試料作製">Fabrication</dt><dd data-en="Photolithography, Magnetron Sputtering, Spin Coating, Mechanical Exfoliation, Wire Bonding, Ultracentrifugation, Vacuum Filtration" data-ja="フォトリソグラフィー、マグネトロンスパッタリング、スピンコート、機械的剥離、ワイヤーボンディング、超遠心分離、真空ろ過">Photolithography, Magnetron Sputtering, Spin Coating, Mechanical Exfoliation, Wire Bonding, Ultracentrifugation, Vacuum Filtration</dd></div>
+                <div><dt data-en="Characterization" data-ja="評価・測定">Characterization</dt><dd data-en="Magnetotransport Measurements, Cryogenic Measurements, Magneto-Optical Kerr Effect, Circular Dichroism, Raman Spectroscopy, X-ray Diffraction, Atomic Force Microscopy, Optical Spectroscopy" data-ja="磁気輸送測定、低温測定、磁気光学カー効果、円二色性、ラマン分光、X線回折、原子間力顕微鏡、光学分光">Magnetotransport Measurements, Cryogenic Measurements, Magneto-Optical Kerr Effect, Circular Dichroism, Raman Spectroscopy, X-ray Diffraction, Atomic Force Microscopy, Optical Spectroscopy</dd></div>
+            </dl>
+        </section>
+
+        <section id="contact">
+            <h2 data-en="Contact" data-ja="連絡先">Contact</h2>
+            <p data-en="akatsukarion@keio.jp" data-ja="akatsukarion@keio.jp">akatsukarion@keio.jp</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Rion Akatsuka
+    </footer>
+    <script>
+        const languageButtons = document.querySelectorAll('[data-language]');
+        function setLanguage(language) {
+            document.documentElement.lang = language;
+            document.querySelectorAll('[data-en][data-ja]').forEach(element => {
+                element.textContent = element.dataset[language];
+            });
+            languageButtons.forEach(button => {
+                button.setAttribute('aria-pressed', String(button.dataset.language === language));
+            });
+        }
+        languageButtons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.language)));
+    </script>
+</body>
+</html>
