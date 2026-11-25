@@ -304,3 +304,5 @@ footer {
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 @media (max-width: 600px) { .back-to-top { right: 16px; bottom: 16px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.back-to-top-icon { width: 17px; height: 17px; fill: currentColor; }
