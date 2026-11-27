@@ -4,8 +4,8 @@
 % Packages
 % --------------------------------------------------
 \usepackage[
-    top=0.6in,
-    bottom=0.6in,
+    top=0.5in,
+    bottom=0.5in,
     left=0.6in,
     right=0.6in
 ]{geometry}
@@ -14,9 +14,9 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage[hidelinks]{hyperref}
-\usepackage{tgpagella}
 
-
+\usepackage{enumitem}
+\setlist[itemize,1]{label=$\circ$}
 
 % --------------------------------------------------
 % General settings
@@ -43,9 +43,7 @@
     {6pt}
 
 
-\definecolor{highlightcolor}{HTML}{2455A4}
-\newcommand{\highlight}[1]{\textcolor{highlightcolor}{\textbf{#1}}}
-
+\newcommand{\highlight}[1]{\textcolor{blue!60!cyan}{\textbf{#1}}}
 % --------------------------------------------------
 % List settings
 % --------------------------------------------------
@@ -80,7 +78,6 @@
     Keio University, Kanagawa, Japan
 \end{center}
 
-\vspace{1pt}
 % ==================================================
 % EDUCATION
 % ==================================================
@@ -89,9 +86,10 @@
 
 \textbf{Keio University}
 \hfill Apr 2023--Mar 2027 (Expected) \\
-\hspace{1.5em}
 Bachelor of Engineering, Department of Applied Physics and Physico-Informatics
-\hfill Kanagawa, Japan
+\hfill Kanagawa, Japan \\
+GPA: 3.71/4.00 ($\sim$top 5\%); Major GPA: 3.94/4.00
+
 
 % ==================================================
 % PUBLICATIONS
@@ -99,22 +97,13 @@ Bachelor of Engineering, Department of Applied Physics and Physico-Informatics
 
 \section*{PUBLICATIONS}
 \textbf{Manuscript in Preparation} \\
-Gustavo M. Rodriguez-Barrios, \underline{Rion Akatsuka}, Natsumi Komatsu, Andrey Baydin, Kazuhiro Yanagi, and Junichiro Kono, "Intersubband Plasmons in Single-Chirality, Highly Aligned Carbon Nanotube Films," manuscript in preparation.
-
-
-% ==================================================
-% PRESENTATIONS
-% ==================================================
-
-\section*{PRESENTATIONS}
-
-1. \underline{Rion Akatsuka}, Gustavo M. Rodriguez-Barrios, Natsumi Komatsu, Andrey Baydin, Kazuhiro Yanagi, and Junichiro Kono, "Intersubband Plasmon Resonances in Single-Chirality, Highly Aligned Single-Wall Carbon Nanotubes,"
-International Workshop on Nanotube Optics and Nanospectroscopy, Wakkanai, Hokkaido, Japan, July 5, 2026. (Poster)
-\vspace{4pt}
-
-2. \underline{Rion Akatsuka} and Hideo Kaiju, "Fabrication and Characterization of Devices for Measuring the Temperature Dependence of Chirality-Induced Spin Selectivity," The Presentation Techniques Conference, Keio University, Kanagawa, Japan, September 2026. (Oral)
-
-
+{\raggedright
+Gustavo M. Rodriguez-Barrios, \textbf{Rion Akatsuka},
+Natsumi Komatsu, Andrey Baydin, Kazuhiro Yanagi,
+and Junichiro Kono,
+``Intersubband Plasmons in Single-Chirality, Highly
+Aligned Carbon Nanotube Films,'' manuscript in preparation.
+\par}
 
 % ==================================================
 % RESEARCH EXPERIENCE
@@ -133,10 +122,11 @@ International Workshop on Nanotube Optics and Nanospectroscopy, Wakkanai, Hokkai
 organic spin valves and reproduced magnetoresistance (MR) with opposite
 signs for the two enantiomers at room temperature.
 \item Built a LabVIEW-automated, cryostat-integrated four-probe MR measurement system and extended MR measurements down to 50 K to investigate \highlight{the temperature dependence of BINOL-based CISS}.
+\item Writing an undergraduate thesis on the topic.
 \end{itemize}
 
 
-\vspace{4pt}
+\vspace{5pt}
 
 \textbf{Real-Time Spin Dynamics in Quantum Many-Body Systems}
 \hfill Sep 2026--Present
@@ -147,20 +137,21 @@ signs for the two enantiomers at room temperature.
 \begingroup
 \sloppy
 \begin{itemize}
+\item \highlight{Competitively selected for a fully funded research internship with a stipend.}
 \item Implemented tensor network methods, including MPS, DMRG, and TEBD, to calculate spin correlation functions and the dynamical structure factor of the 1D Heisenberg model. 
 \item \highlight{Developing TEBD-based simulations of CISS} to investigate the potential role of vibration-induced Dzyaloshinskii-Moriya interactions in temperature-dependent spin polarization. 
 \end{itemize}
 \endgroup
 
-\vspace{4pt}
+\vspace{5pt}
 
 \textbf{Intersubband Plasmons in Gated and Highly Aligned Carbon Nanotubes}
 \hfill Feb--Jul 2026
 
 \textit{Advisor: Prof. Junichiro Kono, Rice University}
 \hfill Houston, TX (On-site: Feb--Mar 2026)
-
 \begin{itemize}
+\item \highlight{Competitively selected for a fully funded research internship with a stipend.}
 \item Collaborated on the assembly of gated devices using
 highly aligned, single-chirality (11,10) carbon nanotube films,
 including gold electrode integration and ionic-liquid gating.
@@ -177,7 +168,7 @@ agreement with experimental spectra.
 \end{itemize}
 
 
-\vspace{4pt}
+\vspace{5pt}
 
 \textbf{Orbital Hall Magnetoresistance in a 2D Material}
 \hfill Jun--Dec 2025
@@ -189,45 +180,16 @@ agreement with experimental spectra.
     \item Fabricated SiO$_2$/Fe$_3$GeTe$_2$/Ti/Si devices using photolithography and mechanical exfoliation.
 \end{itemize}
 
-% ==================================================
-% HONORS & AWARDS
-% ==================================================
-
-\section*{HONORS AND AWARDS}
-\highlight{\textbf{Department of Applied Physics and Physico-Informatics Special Award}} (Selected for Award), Department of Applied Physics and Physico-Informatics, Keio University
-\hfill \mbox{Mar 2027}
-
-\vspace{4pt}
-
-\textbf{Best Presenter Award}, The Presentation Techniques Conference, Keio University
-\hfill Sep 2026
-
 
 % ==================================================
-% SCHOLARSHIPS AND SELECTED PROGRAMS
+% SCHOLARSHIPS
 % ==================================================
 
-\section*{SCHOLARSHIPS AND SELECTED PROGRAMS}
+\section*{SCHOLARSHIPS}
 \textbf{Yoshida Scholarship Foundation -- \highlight{Ph.D. Fellowship}}
 \hfill 2027--2029 (extendable to 2030)
 \begin{itemize}
 \item \highlight{Up to \$25,000 for tuition and \$2,500/month for living expenses}
-\end{itemize}
-\vspace{3pt}
-
-\textbf{R-CCS Research Internship}, RIKEN Center for Computational Science
-\hfill Sep 2026
-\begin{itemize}
-\item Fully funded, including travel, accommodation, and a daily stipend; competitively selected as an undergraduate among 15 participants,
-most of whom were graduate students. 
-\end{itemize}
-\vspace{3pt}
-
-
-\textbf{TOMODACHI-Dow Women's STEM Leadership and Research Program}, Rice University
-\hfill Feb 2026
-\begin{itemize}
-\item Fully funded, including travel, accommodation, and additional financial support; competitively selected as one of 10 participants. 
 \end{itemize}
 \vspace{3pt}
 
@@ -237,7 +199,42 @@ most of whom were graduate students.
 \item Awarded JPY 300,000 in recognition of academic ambition
 and potential as an undergraduate student.
 \end{itemize}
+
+
+% ==================================================
+% PRESENTATIONS
+% ==================================================
+
+\section*{PRESENTATIONS}
+
+1. \textbf{Rion Akatsuka}, Gustavo M. Rodriguez-Barrios, Natsumi Komatsu, Andrey Baydin, Kazuhiro Yanagi, and Junichiro Kono, "Intersubband Plasmon Resonances in Single-Chirality, Highly Aligned Single-Wall Carbon Nanotubes,"
+International Workshop on Nanotube Optics and Nanospectroscopy, Wakkanai, Hokkaido, Japan, July 5, 2026. (Poster)
+\vspace{5pt}
+
+2. \textbf{Rion Akatsuka} and Hideo Kaiju, "Fabrication and Characterization of Devices for Measuring the Temperature Dependence of Chirality-Induced Spin Selectivity," The Presentation Techniques Conference, Keio University, Kanagawa, Japan, September 17, 2026. (Oral)
+
+
+
+% ==================================================
+% HONORS & AWARDS
+% ==================================================
+
+\section*{HONORS AND AWARDS}
+\highlight{Department of Applied Physics and Physico-Informatics Special Award} (Selected for Award), \\
+Department of Applied Physics and Physico-Informatics, Keio University
+\hfill \mbox{Mar 2027}
+
 \vspace{3pt}
+
+\highlight{Best Presenter Award}, The Presentation Techniques Conference, Keio University
+\hfill Sep 2026
+
+
+% ==================================================
+% ACADEMIC ACTIVITIES
+% ==================================================
+
+\section*{ACADEMIC ACTIVITIES}
 
 \textbf{Keio-Aachen Summer School}, RWTH Aachen University
 \hfill Aug--Sep 2025
@@ -255,17 +252,33 @@ and potential as an undergraduate student.
 \end{itemize}
 
 % ==================================================
-% OUTREACH
+% LEADERSHIP AND OUTREACH
 % ==================================================
 
-\section*{OUTREACH}
+\section*{LEADERSHIP AND OUTREACH}
 
 \textbf{Project Member, AWESOME (Japan-based nonprofit organization)}
 \hfill Apr 2026--Present
-
 \begin{itemize}
-    \item Aiming to increase the number of women in STEM and strengthen connections among women in STEM.
-    \item Delivered a talk and organized a hands-on science workshop for high school students.
+    \item Promoting women's participation in STEM and strengthening connections among women in STEM.
+    \item Delivered a talk to high school students on my experiences studying applied physics.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Member and Performance Leader, Dance crew es, Keio University}
+\hfill Apr 2023--Present
+\begin{itemize}
+    \item Four-year member of a university dance club; co-led
+the production of a 50-dancer performance, coordinating
+choreography, rehearsals, and team management.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Volunteer, NyoNyum  Project}
+\hfill Feb 2024
+\begin{itemize}
+    \item Taught English and basic hygiene to elementary school students in Tropianko village, Cambodia.
+    \item Participated in cross-cultural exchange activities with students at the Royal University of Phnom Penh.
 \end{itemize}
 
 % ==================================================
@@ -276,7 +289,7 @@ and potential as an undergraduate student.
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{@{} l p{0.8\textwidth} @{}}
 \textbf{Languages} &
-Japanese (native); English (TOEFL iBT MyBest Scores: R 6.0, L 5.0, S 4.0, W 5.5); Korean (TOPIK PBT 4/6) \\
+Japanese (native); English (TOEFL iBT MyBest Scores 5/6 (R 6.0, L 5.0, S 4.0, W 5.5)); Korean (TOPIK PBT 4/6) \\
 
 \textbf{Computing} &
 Python (NumPy, SciPy, Quimb, Qiskit, Matplotlib), Julia (ITensor), MATLAB, Fortran \\
@@ -298,7 +311,7 @@ Atomic Force Microscopy, Optical Spectroscopy} \\
 
 \end{tabular}
 
-\vspace{8pt}
-\hfill{\footnotesize\color{gray}Last updated: November 23, 2026}
+\vspace{16pt}
+\hfill{\footnotesize\color{gray}Last updated: Nov 27, 2026}
 
 \end{document}
